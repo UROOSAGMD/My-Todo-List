@@ -1,0 +1,71 @@
+
+ body{
+    margin: 0%;
+    padding: 0%;
+    background-color: plum;
+   
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+ }
+ .container{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: grey;
+    height: auto;
+    width: 350px;
+    box-shadow: 4px,5px,6px;
+ }
+ .head{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 550;
+    border-bottom: 0.5px solid black;
+ }
+ #task{
+
+  margin: 10px;
+ margin-left: 80px;
+ cursor: pointer;
+  padding: 9px;
+  border-radius: 10px;
+  border: none;
+  border: 1px , solid, black;
+  display: flex;
+ }
+ #task:hover{
+   background-color: aquamarine;
+   width: 200px;
+
+ }
+ button{
+    
+  margin: 10px;
+  cursor: pointer;
+  padding: 9px;
+  border-radius: 10px;
+  border: 1px , solid, black;
+  background-color: aquamarine;
+
+ }
+
+ .addtask{
+     text-align: center;
+     justify-content: center;
+ }
+
+ li{
+   border: 1px solid black;
+   border-radius: 5px;
+   background-color :  wheat ;
+   margin-right: 15px;
+   margin-top: 10px;
+   padding-left: 9px;
+
+ }
+
+ 
